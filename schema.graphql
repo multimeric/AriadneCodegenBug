@@ -1,0 +1,5 @@
+type Query {
+  boards(
+    ids: [ID!]
+  ): [String]
+}
